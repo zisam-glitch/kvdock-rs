@@ -42,6 +42,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 cargo test
 ```
 
+## Ecosystem & Other Languages
+
+KVDock is also available natively across multiple languages with matching design principles and zero external dependencies:
+
+- **TypeScript / Node.js**: [`zisam-glitch/kvdock`](https://github.com/zisam-glitch/kvdock) — Reference implementation with Tiered Caching, SQLite, S3, Redis, and Cloudflare KV adapters.
+- **Go**: [`zisam-glitch/kvdock-go`](https://github.com/zisam-glitch/kvdock-go) — Generic key-value cache engine with atomic telemetry.
+- **Swift**: [`zisam-glitch/kvdock-swift`](https://github.com/zisam-glitch/kvdock-swift) — Actor-isolated concurrent cache with `ContinuousClock`.
+- **Kotlin**: [`zisam-glitch/kvdock-kt`](https://github.com/zisam-glitch/kvdock-kt) — Thread-safe $O(1)$ LRU key-value cache for the JVM.
+
 ## License
 
 MIT
