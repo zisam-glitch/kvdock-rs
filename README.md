@@ -1,5 +1,7 @@
 # kvdock-rs
 
+> ⭐ **Part of the [KVDock Flagship Ecosystem (`zisam-glitch/kvdock`)](https://github.com/zisam-glitch/kvdock)** — All cross-language architecture specs, interactive stampede simulator, and roadmap tracking live in the main repository. **[Please give `zisam-glitch/kvdock` a ★ Star on GitHub!](https://github.com/zisam-glitch/kvdock)**
+
 High-performance, generic key-value caching layer for Rust with zero external dependencies.
 
 ## Architecture
